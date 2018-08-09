@@ -1,0 +1,16 @@
+{% include "../partials/_head.html" %}
+
+{% import "../macros/headings.html" as HEADINGS %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-md-4 col-md-push-4 text-center-md">
+			{{ HEADINGS.h1('Homepage','text-center') }}
+		</div>
+	</div>
+	<div class="col-xs-12">
+		<p>This would be an example of a homepage, and the use of a macro heading</p>
+	</div>
+</div>
+
+{% include "../partials/_foot.html" %}
